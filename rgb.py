@@ -42,25 +42,13 @@ class RGB:
             print("blue")
             utime.sleep(interval)
             
-            self._toggle(LedColor.RED_GREEN)
-            print("red + green")
-            utime.sleep(interval)
-            
-            self._toggle(LedColor.RED_BLUE)
-            print("red + blue")
-            utime.sleep(interval)
-            
-            self._toggle(LedColor.BLUE_GREEN)
-            print("green + blue")
-            utime.sleep(interval)
-            
             self._toggle(LedColor.WHITE)
             print("white(R + G + B)")
             utime.sleep(interval)
             
-            self._turnOff()
-            print("off")
-            utime.sleep(interval)
+            # self._turnOff()
+            # print("off")
+            # utime.sleep(interval)
             
     def switch_test(self):
         #default value of red is 0
